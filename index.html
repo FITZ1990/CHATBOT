@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bot Interactivo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <video id="videoPlayer" onended="endVideo()">
+      <source src="videos/hola.mp4" type="video/mp4">
+    </video>
+    <div class="buttons">
+      <button id="startButton" onclick="startVideo()">COMENCEMOS</button>
+      <button class="hidden" onclick="playVideo('VIDEOS/MAX.mp4')">MAX</button>
+      <button class="hidden" onclick="playVideo('VIDEOS/LUCHO.mp4')">LUCHO</button>
+      <button class="hidden" onclick="playVideo('VIDEOS/VELY.mp4')">VELY</button>
+      <button class="hidden" onclick="playVideo('VIDEOS/JUAN.mp4')">JUAN</button>
+      <button class="hidden" onclick="playVideo('VIDEOS/PABLO.mp4')">PABLO</button>
+      <button class="hidden" onclick="playVideo('VIDEOS/SOBRE QUIEN.mp4')">VOLVER</button>
+      <button class="hidden" onclick="playVideo('VIDEOS/DESPEDIDA.mp4')">ADIOS</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
